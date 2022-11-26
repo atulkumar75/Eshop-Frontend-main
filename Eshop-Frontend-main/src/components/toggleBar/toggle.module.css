@@ -1,0 +1,11 @@
+.toggle {
+  text-align: center;
+  margin-top: 30px;
+}
+@media (max-width: 1000px) {
+  .item {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

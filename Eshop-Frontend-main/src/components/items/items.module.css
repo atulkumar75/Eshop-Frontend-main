@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto auto;
+  width: 80%;
+}
+.Lift {
+  width: 40%;
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+.Right {
+  width: 40%;
+}
+.price {
+  color: red;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Lift {
+    width: 100%;
+  }
+  .Right {
+    width: 100%;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Lift {
+    width: 100%;
+  }
+  .Right {
+    width: 100%;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
